@@ -1,0 +1,12 @@
+name = "soiv-studio-website"
+compatibility_date = "2023-01-01"
+
+[site]
+bucket = "./dist"
+
+[build]
+command = "npm run build"
+output_dir = "dist"
+
+[env.production]
+name = "soiv-studio-website"
