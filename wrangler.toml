@@ -8,5 +8,8 @@ bucket = "./dist"
 command = "npm run build"
 output_dir = "dist"
 
+# Cloudflare Pages 설정
+pages_build_output_dir = "dist"
+
 [env.production]
 name = "soiv-studio-website"
